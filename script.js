@@ -2,13 +2,7 @@ let inventario = {};
 
 document.addEventListener("DOMContentLoaded", async () => {
   await cargarInventario();
-
-  document.querySelectorAll(".zone").forEach(zone => {
-    zone.addEventListener("click", () => {
-      const id = zone.dataset.id;
-      mostrarInventario(id);
-    });
-  });
+  crearZonasDesdeInventario();
 });
 
 async function cargarInventario() {
@@ -19,6 +13,43 @@ async function cargarInventario() {
     console.error("No fue posible cargar el inventario:", error);
     inventario = {};
   }
+}
+
+function crearZonasDesdeInventario() {
+  const mapWrapper = document.querySelector(".map-wrapper");
+
+  if (!mapWrapper) return;
+
+  // Elimina zonas antiguas creadas manualmente
+  document.querySelectorAll(".zone").forEach(zone => zone.remove());
+
+  Object.entries(inventario).forEach(([id, data]) => {
+    if (
+      data.x === undefined ||
+      data.y === undefined ||
+      data.w === undefined ||
+      data.h === undefined
+    ) {
+      return;
+    }
+
+    const button = document.createElement("button");
+
+    button.className = "zone";
+    button.dataset.id = id;
+    button.textContent = data.nombre || id;
+
+    button.style.left = data.x + "%";
+    button.style.top = data.y + "%";
+    button.style.width = data.w + "%";
+    button.style.height = data.h + "%";
+
+    button.addEventListener("click", () => {
+      mostrarInventario(id);
+    });
+
+    mapWrapper.appendChild(button);
+  });
 }
 
 function mostrarInventario(id) {
