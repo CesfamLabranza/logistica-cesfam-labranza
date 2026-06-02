@@ -1,1 +1,29 @@
-
+{
+  "vacunatorio": {
+    "nombre": "Vacunatorio",
+    "responsable": "Pendiente",
+    "items": [
+      {
+        "nombre": "Refrigerador clínico",
+        "cantidad": 1,
+        "estado": "Operativo",
+        "observacion": "Pendiente de levantamiento"
+      }
+    ]
+  },
+  "farmacia": {
+    "nombre": "Farmacia",
+    "responsable": "Pendiente",
+    "items": []
+  },
+  "some": {
+    "nombre": "SOME",
+    "responsable": "Pendiente",
+    "items": []
+  },
+  "oirs": {
+    "nombre": "OIRS",
+    "responsable": "Pendiente",
+    "items": []
+  }
+}
