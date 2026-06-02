@@ -65,91 +65,190 @@ body {
 
 .zone {
   position: absolute;
-  border: 2px solid rgba(37, 99, 235, 0.85);
+  border: 2px solid rgba(37, 99, 235, 0.8);
   background: rgba(37, 99, 235, 0.10);
   color: #0f172a;
   font-weight: bold;
-  font-size: 11px;
+  font-size: 10px;
   cursor: pointer;
-  border-radius: 6px;
+  border-radius: 5px;
   padding: 2px;
   transition: 0.15s ease;
-  backdrop-filter: blur(1px);
+  text-align: center;
+  overflow: hidden;
 }
 
 .zone:hover {
-  background: rgba(37, 99, 235, 0.28);
-  transform: scale(1.03);
+  background: rgba(37, 99, 235, 0.32);
+  transform: scale(1.04);
+  z-index: 20;
 }
 
-.zona-vacunatorio {
-  left: 86.8%;
-  top: 53.8%;
-  width: 4.1%;
-  height: 5.2%;
+/* Zona exterior izquierda */
+.z-bodega-almacenamiento {
+  left: 4.7%;
+  top: 5.1%;
+  width: 5.7%;
+  height: 3.2%;
 }
 
-.zona-farmacia {
-  left: 35.2%;
-  top: 47.1%;
-  width: 5.6%;
-  height: 3.6%;
-}
-
-.zona-some {
-  left: 82.3%;
-  top: 44.4%;
-  width: 2.4%;
-  height: 4.1%;
-}
-
-.zona-oirs {
-  left: 49.7%;
-  top: 47.1%;
-  width: 2.8%;
-  height: 3.5%;
-}
-
-.zona-toma-muestras {
-  left: 73.7%;
-  top: 43.2%;
-  width: 6.1%;
-  height: 4.4%;
-}
-
-.zona-informatica {
-  left: 13.4%;
-  top: 81.0%;
-  width: 5.0%;
-  height: 4.7%;
-}
-
-.zona-direccion {
-  left: 7.0%;
-  top: 73.7%;
-  width: 4.7%;
-  height: 4.7%;
-}
-
-.zona-sala-conductores {
-  left: 5.2%;
-  top: 10.5%;
-  width: 5.6%;
+.z-sala-conductores {
+  left: 4.8%;
+  top: 11.5%;
+  width: 5.7%;
   height: 3.3%;
 }
 
-.zona-bodega-mantenimiento {
-  left: 5.2%;
-  top: 17.9%;
-  width: 5.6%;
+.z-bodega-mantenimiento {
+  left: 4.8%;
+  top: 18.2%;
+  width: 5.7%;
+  height: 3.2%;
+}
+
+/* Sector clínico izquierdo */
+.z-ira {
+  left: 17.9%;
+  top: 37.5%;
+  width: 4.6%;
+  height: 4.7%;
+}
+
+.z-endoscopia {
+  left: 8.4%;
+  top: 43.3%;
+  width: 4.9%;
+  height: 7.4%;
+}
+
+.z-rayos-x {
+  left: 22.0%;
+  top: 43.3%;
+  width: 4.5%;
+  height: 5.2%;
+}
+
+.z-era {
+  left: 27.4%;
+  top: 47.5%;
+  width: 4.3%;
+  height: 5.5%;
+}
+
+/* Sector farmacia y apoyo clínico */
+.z-farmacia {
+  left: 35.0%;
+  top: 47.0%;
+  width: 5.8%;
   height: 3.5%;
 }
 
-.zona-bodega-almacenamiento {
-  left: 5.2%;
-  top: 5.2%;
-  width: 5.6%;
-  height: 3.4%;
+.z-bodega-farmacia {
+  left: 36.7%;
+  top: 24.0%;
+  width: 9.5%;
+  height: 3.8%;
+}
+
+.z-oficina-quimico {
+  left: 31.8%;
+  top: 38.0%;
+  width: 4.7%;
+  height: 5.2%;
+}
+
+.z-esterilizacion {
+  left: 32.4%;
+  top: 29.4%;
+  width: 4.8%;
+  height: 7.3%;
+}
+
+/* Atención usuario */
+.z-some {
+  left: 82.0%;
+  top: 44.1%;
+  width: 2.8%;
+  height: 4.2%;
+}
+
+.z-oirs {
+  left: 49.4%;
+  top: 47.0%;
+  width: 3.2%;
+  height: 3.5%;
+}
+
+.z-toma-muestras {
+  left: 73.4%;
+  top: 43.1%;
+  width: 6.2%;
+  height: 4.5%;
+}
+
+.z-vacunatorio {
+  left: 86.7%;
+  top: 53.5%;
+  width: 4.4%;
+  height: 5.4%;
+}
+
+/* Áreas comunes */
+.z-casino {
+  left: 62.5%;
+  top: 24.5%;
+  width: 7.2%;
+  height: 5.3%;
+}
+
+.z-padi {
+  left: 43.4%;
+  top: 55.2%;
+  width: 5.3%;
+  height: 4.8%;
+}
+
+.z-signos-vitales {
+  left: 27.0%;
+  top: 53.9%;
+  width: 5.7%;
+  height: 4.2%;
+}
+
+.z-entrega-leche {
+  left: 32.8%;
+  top: 56.0%;
+  width: 5.9%;
+  height: 4.0%;
+}
+
+/* Segundo piso dirección */
+.z-direccion {
+  left: 7.2%;
+  top: 73.2%;
+  width: 4.8%;
+  height: 5.0%;
+}
+
+.z-informatica {
+  left: 13.2%;
+  top: 80.5%;
+  width: 5.2%;
+  height: 4.8%;
+}
+
+.z-gestion-oficina {
+  left: 13.2%;
+  top: 86.0%;
+  width: 5.2%;
+  height: 4.7%;
+}
+
+.z-secretaria {
+  left: 7.2%;
+  top: 88.2%;
+  width: 4.8%;
+  height: 4.8%;
 }
 
 .vacunatorio {
