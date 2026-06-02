@@ -1,29 +1,25 @@
 {
-  "vacunatorio": {
-    "nombre": "Vacunatorio",
-    "responsable": "Pendiente",
-    "items": [
-      {
-        "nombre": "Refrigerador clínico",
-        "cantidad": 1,
-        "estado": "Operativo",
-        "observacion": "Pendiente de levantamiento"
-      }
-    ]
-  },
-  "farmacia": {
-    "nombre": "Farmacia",
-    "responsable": "Pendiente",
-    "items": []
-  },
-  "some": {
-    "nombre": "SOME",
-    "responsable": "Pendiente",
-    "items": []
-  },
-  "oirs": {
-    "nombre": "OIRS",
-    "responsable": "Pendiente",
-    "items": []
-  }
+"bodega_almacenamiento": { "nombre": "Bodega almacenamiento", "responsable": "Pendiente", "items": [] },
+"sala_conductores": { "nombre": "Sala conductores", "responsable": "Pendiente", "items": [] },
+"bodega_mantenimiento": { "nombre": "Bodega mantenimiento", "responsable": "Pendiente", "items": [] },
+"ira": { "nombre": "IRA respiratorio", "responsable": "Pendiente", "items": [] },
+"endoscopia": { "nombre": "Endoscopía", "responsable": "Pendiente", "items": [] },
+"rayos_x": { "nombre": "Rayos X", "responsable": "Pendiente", "items": [] },
+"era": { "nombre": "ERA", "responsable": "Pendiente", "items": [] },
+"farmacia": { "nombre": "Farmacia", "responsable": "Pendiente", "items": [] },
+"bodega_farmacia": { "nombre": "Bodega farmacia", "responsable": "Pendiente", "items": [] },
+"oficina_quimico": { "nombre": "Oficina químico farmacéutico", "responsable": "Pendiente", "items": [] },
+"esterilizacion": { "nombre": "Esterilización", "responsable": "Pendiente", "items": [] },
+"some": { "nombre": "SOME", "responsable": "Pendiente", "items": [] },
+"oirs": { "nombre": "OIRS", "responsable": "Pendiente", "items": [] },
+"toma_muestras": { "nombre": "Toma de muestras", "responsable": "Pendiente", "items": [] },
+"vacunatorio": { "nombre": "Vacunatorio", "responsable": "Pendiente", "items": [] },
+"casino_comedor": { "nombre": "Casino comedor", "responsable": "Pendiente", "items": [] },
+"padi": { "nombre": "PADI", "responsable": "Pendiente", "items": [] },
+"signos_vitales": { "nombre": "Signos vitales", "responsable": "Pendiente", "items": [] },
+"entrega_leche": { "nombre": "Entrega de leche", "responsable": "Pendiente", "items": [] },
+"direccion": { "nombre": "Dirección", "responsable": "Pendiente", "items": [] },
+"informatica": { "nombre": "Informática", "responsable": "Pendiente", "items": [] },
+"gestion_oficina": { "nombre": "Gestión de oficina", "responsable": "Pendiente", "items": [] },
+"secretaria": { "nombre": "Secretaría", "responsable": "Pendiente", "items": [] }
 }
