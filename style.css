@@ -65,20 +65,91 @@ body {
 
 .zone {
   position: absolute;
-  border: 2px solid rgba(37, 99, 235, 0.75);
-  background: rgba(37, 99, 235, 0.18);
+  border: 2px solid rgba(37, 99, 235, 0.85);
+  background: rgba(37, 99, 235, 0.10);
   color: #0f172a;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 11px;
   cursor: pointer;
-  border-radius: 8px;
-  padding: 4px;
+  border-radius: 6px;
+  padding: 2px;
   transition: 0.15s ease;
+  backdrop-filter: blur(1px);
 }
 
 .zone:hover {
-  background: rgba(37, 99, 235, 0.32);
+  background: rgba(37, 99, 235, 0.28);
   transform: scale(1.03);
+}
+
+.zona-vacunatorio {
+  left: 86.8%;
+  top: 53.8%;
+  width: 4.1%;
+  height: 5.2%;
+}
+
+.zona-farmacia {
+  left: 35.2%;
+  top: 47.1%;
+  width: 5.6%;
+  height: 3.6%;
+}
+
+.zona-some {
+  left: 82.3%;
+  top: 44.4%;
+  width: 2.4%;
+  height: 4.1%;
+}
+
+.zona-oirs {
+  left: 49.7%;
+  top: 47.1%;
+  width: 2.8%;
+  height: 3.5%;
+}
+
+.zona-toma-muestras {
+  left: 73.7%;
+  top: 43.2%;
+  width: 6.1%;
+  height: 4.4%;
+}
+
+.zona-informatica {
+  left: 13.4%;
+  top: 81.0%;
+  width: 5.0%;
+  height: 4.7%;
+}
+
+.zona-direccion {
+  left: 7.0%;
+  top: 73.7%;
+  width: 4.7%;
+  height: 4.7%;
+}
+
+.zona-sala-conductores {
+  left: 5.2%;
+  top: 10.5%;
+  width: 5.6%;
+  height: 3.3%;
+}
+
+.zona-bodega-mantenimiento {
+  left: 5.2%;
+  top: 17.9%;
+  width: 5.6%;
+  height: 3.5%;
+}
+
+.zona-bodega-almacenamiento {
+  left: 5.2%;
+  top: 5.2%;
+  width: 5.6%;
+  height: 3.4%;
 }
 
 .vacunatorio {
