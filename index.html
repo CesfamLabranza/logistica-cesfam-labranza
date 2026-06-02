@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Logística CESFAM Labranza</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      <div>
+        <h1>Logística e inventario</h1>
+        <p>Seleccione un box, oficina o dependencia para revisar su inventario asociado.</p>
+      </div>
+    </header>
 
+    <main class="panel">
+      <div class="map-wrapper">
+        <img src="assets/plano-cesfam.png" alt="Plano CESFAM Labranza" class="map-img" />
+
+        <button class="zone vacunatorio" data-id="vacunatorio">Vacunatorio</button>
+        <button class="zone farmacia" data-id="farmacia">Farmacia</button>
+        <button class="zone some" data-id="some">SOME</button>
+        <button class="zone oirs" data-id="oirs">OIRS</button>
+      </div>
+    </main>
+  </div>
+
+  <div id="modalBackdrop" class="modal-backdrop hidden">
+    <div class="modal">
+      <button class="close-btn" onclick="closeModal()">×</button>
+      <h2 id="modalTitle">Dependencia</h2>
+      <p id="modalResponsible"></p>
+
+      <div id="inventoryContent"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
