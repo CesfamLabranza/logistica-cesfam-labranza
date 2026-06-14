@@ -1,0 +1,1334 @@
+diff --git a/data/inventario.json b/data/inventario.json
+index 22b00cb..8cb2eb1 100644
+--- a/data/inventario.json
++++ b/data/inventario.json
+@@ -1,25 +1,1088 @@
+ {
+-"bodega_almacenamiento": { "nombre": "Bodega almacenamiento", "responsable": "Pendiente", "items": [] },
+-"sala_conductores": { "nombre": "Sala conductores", "responsable": "Pendiente", "items": [] },
+-"bodega_mantenimiento": { "nombre": "Bodega mantenimiento", "responsable": "Pendiente", "items": [] },
+-"ira": { "nombre": "IRA respiratorio", "responsable": "Pendiente", "items": [] },
+-"endoscopia": { "nombre": "Endoscopía", "responsable": "Pendiente", "items": [] },
+-"rayos_x": { "nombre": "Rayos X", "responsable": "Pendiente", "items": [] },
+-"era": { "nombre": "ERA", "responsable": "Pendiente", "items": [] },
+-"farmacia": { "nombre": "Farmacia", "responsable": "Pendiente", "items": [] },
+-"bodega_farmacia": { "nombre": "Bodega farmacia", "responsable": "Pendiente", "items": [] },
+-"oficina_quimico": { "nombre": "Oficina químico farmacéutico", "responsable": "Pendiente", "items": [] },
+-"esterilizacion": { "nombre": "Esterilización", "responsable": "Pendiente", "items": [] },
+-"some": { "nombre": "SOME", "responsable": "Pendiente", "items": [] },
+-"oirs": { "nombre": "OIRS", "responsable": "Pendiente", "items": [] },
+-"toma_muestras": { "nombre": "Toma de muestras", "responsable": "Pendiente", "items": [] },
+-"vacunatorio": { "nombre": "Vacunatorio", "responsable": "Pendiente", "items": [] },
+-"casino_comedor": { "nombre": "Casino comedor", "responsable": "Pendiente", "items": [] },
+-"padi": { "nombre": "PADI", "responsable": "Pendiente", "items": [] },
+-"signos_vitales": { "nombre": "Signos vitales", "responsable": "Pendiente", "items": [] },
+-"entrega_leche": { "nombre": "Entrega de leche", "responsable": "Pendiente", "items": [] },
+-"direccion": { "nombre": "Dirección", "responsable": "Pendiente", "items": [] },
+-"informatica": { "nombre": "Informática", "responsable": "Pendiente", "items": [] },
+-"gestion_oficina": { "nombre": "Gestión de oficina", "responsable": "Pendiente", "items": [] },
+-"secretaria": { "nombre": "Secretaría", "responsable": "Pendiente", "items": [] }
+-}
++  "bodega_almacenamiento": {
++    "nombre": "Bodega almacenamiento",
++    "responsable": "Carlos Muñoz",
++    "items": [
++      {
++        "nombre": "Archivador oficina",
++        "cantidad": 25,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Resma papel carta",
++        "cantidad": 80,
++        "estado": "Bueno",
++        "observacion": "Bodega 1 estante A"
++      },
++      {
++        "nombre": "Tóner impresora HP",
++        "cantidad": 15,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Caja clips metálicos",
++        "cantidad": 40,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Carpetas colgantes",
++        "cantidad": 100,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Set escritorio + silla",
++        "cantidad": 10,
++        "estado": "Regular",
++        "observacion": "Algunas sillas con desgaste"
++      },
++      {
++        "nombre": "Lámpara escritorio",
++        "cantidad": 8,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Basurero oficina",
++        "cantidad": 20,
++        "estado": "Bueno",
++        "observacion": ""
++      }
++    ]
++  },
++  "sala_conductores": {
++    "nombre": "Sala conductores",
++    "responsable": "Miguel Ángel Soto",
++    "items": [
++      {
++        "nombre": "Juego llaves vehículo",
++        "cantidad": 4,
++        "estado": "Bueno",
++        "observacion": "Furgón 1,2,3 y ambulancia"
++      },
++      {
++        "nombre": "Chaleco reflectante",
++        "cantidad": 6,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Extintor 5kg",
++        "cantidad": 2,
++        "estado": "Bueno",
++        "observacion": "Próximo vencimiento Dic 2026"
++      },
++      {
++        "nombre": "Botiquín primeros auxilios",
++        "cantidad": 3,
++        "estado": "Regular",
++        "observacion": "Reponer insumos"
++      },
++      {
++        "nombre": "Radio portátil",
++        "cantidad": 3,
++        "estado": "Bueno",
++        "observacion": "Cargadores incluidos"
++      },
++      {
++        "nombre": "Triángulo seguridad",
++        "cantidad": 4,
++        "estado": "Bueno",
++        "observacion": ""
++      }
++    ]
++  },
++  "bodega_mantenimiento": {
++    "nombre": "Bodega mantenimiento",
++    "responsable": "Luis Flores",
++    "items": [
++      {
++        "nombre": "Taladro percutor",
++        "cantidad": 2,
++        "estado": "Bueno",
++        "observacion": "Marca Bosch"
++      },
++      {
++        "nombre": "Set llaves mecánicas",
++        "cantidad": 3,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Escalera aluminio 6 peldaños",
++        "cantidad": 2,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Caja herramientas general",
++        "cantidad": 4,
++        "estado": "Regular",
++        "observacion": "Faltan algunas llaves"
++      },
++      {
++        "nombre": "Pintura blanca 20L",
++        "cantidad": 3,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Focos LED 12W",
++        "cantidad": 50,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Cinta aislante",
++        "cantidad": 12,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Multímetro digital",
++        "cantidad": 1,
++        "estado": "Bueno",
++        "observacion": ""
++      }
++    ]
++  },
++  "ira": {
++    "nombre": "IRA respiratorio",
++    "responsable": "Dra. María González",
++    "items": [
++      {
++        "nombre": "Nebulizador ultrasónico",
++        "cantidad": 4,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Oxímetro de pulso",
++        "cantidad": 5,
++        "estado": "Bueno",
++        "observacion": "2 pediátricos, 3 adultos"
++      },
++      {
++        "nombre": "Tensiómetro digital",
++        "cantidad": 3,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Camilla examen",
++        "cantidad": 3,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Mascarilla quirúrgica caja",
++        "cantidad": 20,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Puff salbutamol",
++        "cantidad": 30,
++        "estado": "Bueno",
++        "observacion": "Stock crítico"
++      },
++      {
++        "nombre": "Balón oxígeno portátil",
++        "cantidad": 2,
++        "estado": "Bueno",
++        "observacion": "Verificar carga semanal"
++      }
++    ]
++  },
++  "endoscopia": {
++    "nombre": "Endoscopía",
++    "responsable": "Dr. Patricio Rojas",
++    "items": [
++      {
++        "nombre": "Endoscopio flexible",
++        "cantidad": 2,
++        "estado": "Bueno",
++        "observacion": "Marca Olympus"
++      },
++      {
++        "nombre": "Pinza biopsia",
++        "cantidad": 10,
++        "estado": "Bueno",
++        "observacion": "Esterilizadas"
++      },
++      {
++        "nombre": "Monitor endoscopía",
++        "cantidad": 1,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Fuente luz halógena",
++        "cantidad": 1,
++        "estado": "Regular",
++        "observacion": "Repuesto lámpara solicitado"
++      },
++      {
++        "nombre": "Carro endoscopía",
++        "cantidad": 1,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Set instrumental broncoscopía",
++        "cantidad": 1,
++        "estado": "Bueno",
++        "observacion": ""
++      }
++    ]
++  },
++  "rayos_x": {
++    "nombre": "Rayos X",
++    "responsable": "Téc. Ana Saavedra",
++    "items": [
++      {
++        "nombre": "Equipo rayos X digital",
++        "cantidad": 1,
++        "estado": "Bueno",
++        "observacion": "Mantener vigente (2026)"
++      },
++      {
++        "nombre": "Delantal plomado",
++        "cantidad": 3,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Protector tiroides plomado",
++        "cantidad": 3,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Placa fósforo fotoestimulable",
++        "cantidad": 4,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Dosímetro personal",
++        "cantidad": 2,
++        "estado": "Bueno",
++        "observacion": "Lectura trimestral"
++      },
++      {
++        "nombre": "Bata desechable",
++        "cantidad": 50,
++        "estado": "Bueno",
++        "observacion": ""
++      }
++    ]
++  },
++  "era": {
++    "nombre": "ERA",
++    "responsable": "Dra. Carolina Muñoz",
++    "items": [
++      {
++        "nombre": "Camilla ginecológica",
++        "cantidad": 2,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Especuloscopio",
++        "cantidad": 5,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Ecógrafo portátil",
++        "cantidad": 1,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Set espéculos desechables",
++        "cantidad": 200,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Lámpara cuello de cisne",
++        "cantidad": 2,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Negatoscopio",
++        "cantidad": 1,
++        "estado": "Bueno",
++        "observacion": ""
++      }
++    ]
++  },
++  "farmacia": {
++    "nombre": "Farmacia",
++    "responsable": "Q.F. Pamela Durán",
++    "items": [
++      {
++        "nombre": "Computador dispensación",
++        "cantidad": 2,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Lector código barras",
++        "cantidad": 2,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Estante medicamentos",
++        "cantidad": 8,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Refrigerador farmacia",
++        "cantidad": 2,
++        "estado": "Bueno",
++        "observacion": "Temp monitoreada diariamente"
++      },
++      {
++        "nombre": "Balanza gramera",
++        "cantidad": 1,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Sistema dispensación Rx",
++        "cantidad": 1,
++        "estado": "Bueno",
++        "observacion": "Licencia vigente"
++      }
++    ]
++  },
++  "bodega_farmacia": {
++    "nombre": "Bodega farmacia",
++    "responsable": "Q.F. Pamela Durán",
++    "items": [
++      {
++        "nombre": "Pallet medicamentos",
++        "cantidad": 12,
++        "estado": "Bueno",
++        "observacion": "Rotación FIFO"
++      },
++      {
++        "nombre": "Termohigrómetro digital",
++        "cantidad": 2,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Extintor CO2",
++        "cantidad": 1,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Escalón seguridad",
++        "cantidad": 2,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Caja plástica almacenaje",
++        "cantidad": 30,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Sellos seguridad",
++        "cantidad": 100,
++        "estado": "Bueno",
++        "observacion": ""
++      }
++    ]
++  },
++  "oficina_quimico": {
++    "nombre": "Oficina químico farmacéutico",
++    "responsable": "Q.F. Pamela Durán",
++    "items": [
++      {
++        "nombre": "Escritorio ejecutivo",
++        "cantidad": 1,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Silla escritorio",
++        "cantidad": 1,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Computador escritorio",
++        "cantidad": 1,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Archivador metálico",
++        "cantidad": 2,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Impresora multifuncional",
++        "cantidad": 1,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Biblioteca medicamentos",
++        "cantidad": 1,
++        "estado": "Bueno",
++        "observacion": "Textos oficiales MINSAL"
++      }
++    ]
++  },
++  "esterilizacion": {
++    "nombre": "Esterilización",
++    "responsable": "E.U. Marta Soto",
++    "items": [
++      {
++        "nombre": "Autoclave vapor",
++        "cantidad": 2,
++        "estado": "Bueno",
++        "observacion": "Prueba Bowie-Dick diaria"
++      },
++      {
++        "nombre": "Selladora bolsas",
++        "cantidad": 1,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Bolsa esterilización papel",
++        "cantidad": 500,
++        "estado": "Bueno",
++        "observacion": "Variedad tamaños"
++      },
++      {
++        "nombre": "Indicador químico",
++        "cantidad": 1000,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Indicador biológico",
++        "cantidad": 50,
++        "estado": "Bueno",
++        "observacion": "Lectura 48hrs"
++      },
++      {
++        "nombre": "Carro acero inoxidable",
++        "cantidad": 3,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Lavadora ultrasónica",
++        "cantidad": 1,
++        "estado": "Regular",
++        "observacion": "Requiere mantención preventiva"
++      }
++    ]
++  },
++  "some": {
++    "nombre": "SOME",
++    "responsable": "Sra. Rosa Cifuentes",
++    "items": [
++      {
++        "nombre": "Computador escritorio",
++        "cantidad": 4,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Impresora matricial",
++        "cantidad": 2,
++        "estado": "Regular",
++        "observacion": "Cambio cinta cada 2 semanas"
++      },
++      {
++        "nombre": "Teléfono IP",
++        "cantidad": 3,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Archivador rodante",
++        "cantidad": 4,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Fichero fichas clínicas",
++        "cantidad": 6,
++        "estado": "Regular",
++        "observacion": "Capacidad reducida al 80%"
++      },
++      {
++        "nombre": "Scanner documentos",
++        "cantidad": 1,
++        "estado": "Bueno",
++        "observacion": "Digitalización fichas"
++      },
++      {
++        "nombre": "Silla espera recepción",
++        "cantidad": 4,
++        "estado": "Bueno",
++        "observacion": ""
++      }
++    ]
++  },
++  "oirs": {
++    "nombre": "OIRS",
++    "responsable": "Sra. Claudia Vega",
++    "items": [
++      {
++        "nombre": "Computador escritorio",
++        "cantidad": 1,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Impresora multifuncional",
++        "cantidad": 1,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Teléfono IP",
++        "cantidad": 1,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Silla escritorio",
++        "cantidad": 2,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Libro reclamos físico",
++        "cantidad": 3,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Formularios OIRS",
++        "cantidad": 200,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Archivador documentos",
++        "cantidad": 2,
++        "estado": "Bueno",
++        "observacion": ""
++      }
++    ]
++  },
++  "toma_muestras": {
++    "nombre": "Toma de muestras",
++    "responsable": "TENS Claudia Rivas",
++    "items": [
++      {
++        "nombre": "Camilla examen",
++        "cantidad": 3,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Set tubo vacutainer",
++        "cantidad": 500,
++        "estado": "Bueno",
++        "observacion": "Variedad tapas"
++      },
++      {
++        "nombre": "Aguja vacutainer",
++        "cantidad": 300,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Torniquete",
++        "cantidad": 10,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Centrífuga",
++        "cantidad": 2,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Refrigerador muestras",
++        "cantidad": 1,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Contenedor punzocortantes",
++        "cantidad": 10,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Guante examen caja",
++        "cantidad": 15,
++        "estado": "Bueno",
++        "observacion": "Talla S, M, L"
++      }
++    ]
++  },
++  "vacunatorio": {
++    "nombre": "Vacunatorio",
++    "responsable": "E.U. Katherine López",
++    "items": [
++      {
++        "nombre": "Refrigerador vacunas",
++        "cantidad": 2,
++        "estado": "Bueno",
++        "observacion": "Cadena de frío monitoreada"
++      },
++      {
++        "nombre": "Data logger temperatura",
++        "cantidad": 2,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Camilla examen",
++        "cantidad": 2,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Silla aplicación",
++        "cantidad": 2,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Jeringa 1ml",
++        "cantidad": 500,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Jeringa 3ml",
++        "cantidad": 300,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Contenedor cortopunzantes",
++        "cantidad": 5,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Termo portátil vacunas",
++        "cantidad": 2,
++        "estado": "Bueno",
++        "observacion": "Gel refrigerante incluido"
++      }
++    ]
++  },
++  "casino_comedor": {
++    "nombre": "Casino comedor",
++    "responsable": "Sra. Teresa Parada",
++    "items": [
++      {
++        "nombre": "Mesa comedor 6 puestos",
++        "cantidad": 8,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Silla comedor",
++        "cantidad": 48,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Microondas",
++        "cantidad": 2,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Hervidor eléctrico",
++        "cantidad": 2,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Refrigerador",
++        "cantidad": 1,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Set cubiertos",
++        "cantidad": 50,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Vajilla completa",
++        "cantidad": 50,
++        "estado": "Regular",
++        "observacion": "Algunos platos con rajaduras"
++      }
++    ]
++  },
++  "padi": {
++    "nombre": "PADI",
++    "responsable": "E.U. Daniela Fuentes",
++    "items": [
++      {
++        "nombre": "Mochila visita domiciliaria",
++        "cantidad": 4,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Tensiómetro portátil",
++        "cantidad": 4,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Glucómetro",
++        "cantidad": 4,
++        "estado": "Bueno",
++        "observacion": "Tiras reactivas stock aparte"
++      },
++      {
++        "nombre": "Camilla portátil",
++        "cantidad": 2,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Balanza digital portátil",
++        "cantidad": 2,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Set curaciones",
++        "cantidad": 10,
++        "estado": "Bueno",
++        "observacion": "Reponer según uso"
++      },
++      {
++        "nombre": "Oxímetro portátil",
++        "cantidad": 4,
++        "estado": "Bueno",
++        "observacion": ""
++      }
++    ]
++  },
++  "signos_vitales": {
++    "nombre": "Signos vitales",
++    "responsable": "TENS María Soto",
++    "items": [
++      {
++        "nombre": "Tensiómetro digital",
++        "cantidad": 6,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Tensiómetro aneroide",
++        "cantidad": 2,
++        "estado": "Regular",
++        "observacion": "Requieren calibración"
++      },
++      {
++        "nombre": "Estetoscopio",
++        "cantidad": 6,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Termómetro digital",
++        "cantidad": 8,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Oxímetro pulso",
++        "cantidad": 5,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Balanza digital adultos",
++        "cantidad": 2,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Balanza pediátrica",
++        "cantidad": 1,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Camilla examen",
++        "cantidad": 4,
++        "estado": "Bueno",
++        "observacion": ""
++      }
++    ]
++  },
++  "entrega_leche": {
++    "nombre": "Entrega de leche",
++    "responsable": "TENS Patricia Silva",
++    "items": [
++      {
++        "nombre": "Leche fórmula 1kg",
++        "cantidad": 200,
++        "estado": "Bueno",
++        "observacion": "PACAM"
++      },
++      {
++        "nombre": "Leche purita 1kg",
++        "cantidad": 300,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Estante almacenaje",
++        "cantidad": 4,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Termo conservación",
++        "cantidad": 2,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Balanza gramera",
++        "cantidad": 1,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Registro entregas libro",
++        "cantidad": 3,
++        "estado": "Bueno",
++        "observacion": ""
++      }
++    ]
++  },
++  "direccion": {
++    "nombre": "Dirección",
++    "responsable": "Dr. Juan Pablo Toledo",
++    "items": [
++      {
++        "nombre": "Escritorio ejecutivo",
++        "cantidad": 1,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Silla ejecutiva",
++        "cantidad": 2,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Computador todo-en-uno",
++        "cantidad": 1,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Sillones espera",
++        "cantidad": 4,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Archivador metálico 4 gavetas",
++        "cantidad": 2,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Teléfono IP",
++        "cantidad": 1,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Impresora multifuncional",
++        "cantidad": 1,
++        "estado": "Bueno",
++        "observacion": ""
++      }
++    ]
++  },
++  "informatica": {
++    "nombre": "Informática",
++    "responsable": "Sr. Ricardo Vega",
++    "items": [
++      {
++        "nombre": "Servidor HP ProLiant",
++        "cantidad": 2,
++        "estado": "Bueno",
++        "observacion": "Rack sala servidores"
++      },
++      {
++        "nombre": "Switch red 48 puertos",
++        "cantidad": 3,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Patch panel",
++        "cantidad": 4,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Router corporativo",
++        "cantidad": 2,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "UPS 1500VA",
++        "cantidad": 3,
++        "estado": "Bueno",
++        "observacion": "Baterías OK"
++      },
++      {
++        "nombre": "Laptop mantención",
++        "cantidad": 2,
++        "estado": "Bueno",
++        "observacion": "Herramientas instaladas"
++      },
++      {
++        "nombre": "Cable UTP Cat6 metro",
++        "cantidad": 200,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Switch escritorio 8 puertos",
++        "cantidad": 5,
++        "estado": "Bueno",
++        "observacion": "Repuestos"
++      }
++    ]
++  },
++  "gestion_oficina": {
++    "nombre": "Gestión de oficina",
++    "responsable": "Sra. Marcela Ruiz",
++    "items": [
++      {
++        "nombre": "Escritorio",
++        "cantidad": 3,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Silla escritorio",
++        "cantidad": 3,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Computador escritorio",
++        "cantidad": 3,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Archivador metálico",
++        "cantidad": 3,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Impresora multifuncional",
++        "cantidad": 1,
++        "estado": "Bueno",
++        "observacion": "Compartida"
++      },
++      {
++        "nombre": "Teléfono IP",
++        "cantidad": 2,
++        "estado": "Bueno",
++        "observacion": ""
++      }
++    ]
++  },
++  "secretaria": {
++    "nombre": "Secretaría",
++    "responsable": "Sra. Verónica Martínez",
++    "items": [
++      {
++        "nombre": "Escritorio secretarial",
++        "cantidad": 1,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Silla secretarial",
++        "cantidad": 1,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Computador escritorio",
++        "cantidad": 1,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Impresora multifuncional",
++        "cantidad": 1,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Teléfono IP",
++        "cantidad": 1,
++        "estado": "Bueno",
++        "observacion": "Central telefónica"
++      },
++      {
++        "nombre": "Archivador documentos",
++        "cantidad": 2,
++        "estado": "Bueno",
++        "observacion": ""
++      },
++      {
++        "nombre": "Silla espera",
++        "cantidad": 3,
++        "estado": "Bueno",
++        "observacion": ""
++      }
++    ]
++  }
++}
+\ No newline at end of file
+diff --git a/index.html b/index.html
+index a2088a7..10c042c 100644
+--- a/index.html
++++ b/index.html
+@@ -8,6 +8,15 @@
+ </head>
+ <body>
+   <div class="page">
++
++    <div id="landing" class="landing">
++      <img src="assets/logo-cesfam.png" alt="CESFAM Labranza" class="logo" />
++      <h1 class="landing-title">CESFAM Labranza</h1>
++      <p class="landing-sub">Sistema de Logística e Inventario</p>
++      <button id="btnIngresar" class="btn-ingresar">Ingresar al sistema</button>
++    </div>
++
++    <div id="app" class="hidden">
+     <header class="topbar">
+       <div>
+         <h1>Logística e inventario</h1>
+@@ -54,6 +63,7 @@
+   </div>
+ </main>
+   </div>
++  </div>
+ 
+   <div id="modalBackdrop" class="modal-backdrop hidden">
+     <div class="modal">
+diff --git a/script.js b/script.js
+index 68b4625..9be7df3 100644
+--- a/script.js
++++ b/script.js
+@@ -1,10 +1,16 @@
+ let inventario = {};
+ 
+-document.addEventListener("DOMContentLoaded", async () => {
+-  await cargarInventario();
+-  crearZonasDesdeInventario();
++document.addEventListener("DOMContentLoaded", () => {
++  document.getElementById("btnIngresar").addEventListener("click", ingresar);
+ });
+ 
++async function ingresar() {
++  document.getElementById("landing").classList.add("hidden");
++  document.getElementById("app").classList.remove("hidden");
++  await cargarInventario();
++  conectarZonas();
++}
++
+ async function cargarInventario() {
+   try {
+     const response = await fetch("data/inventario.json");
+@@ -15,40 +21,13 @@ async function cargarInventario() {
+   }
+ }
+ 
+-function crearZonasDesdeInventario() {
+-  const mapWrapper = document.querySelector(".map-wrapper");
+-
+-  if (!mapWrapper) return;
+-
+-  // Elimina zonas antiguas creadas manualmente
+-  document.querySelectorAll(".zone").forEach(zone => zone.remove());
+-
+-  Object.entries(inventario).forEach(([id, data]) => {
+-    if (
+-      data.x === undefined ||
+-      data.y === undefined ||
+-      data.w === undefined ||
+-      data.h === undefined
+-    ) {
+-      return;
+-    }
+-
+-    const button = document.createElement("button");
+-
+-    button.className = "zone";
+-    button.dataset.id = id;
+-    button.textContent = data.nombre || id;
+-
+-    button.style.left = data.x + "%";
+-    button.style.top = data.y + "%";
+-    button.style.width = data.w + "%";
+-    button.style.height = data.h + "%";
+-
+-    button.addEventListener("click", () => {
+-      mostrarInventario(id);
++// Conecta los botones de zona definidos en index.html (posicionados vía CSS .z-*)
++// con la lógica de inventario. Cada zona muestra su inventario según su data-id.
++function conectarZonas() {
++  document.querySelectorAll(".zone").forEach(zone => {
++    zone.addEventListener("click", () => {
++      mostrarInventario(zone.dataset.id);
+     });
+-
+-    mapWrapper.appendChild(button);
+   });
+ }
+ 
+diff --git a/style.css b/style.css
+index da5ff73..ae45651 100644
+--- a/style.css
++++ b/style.css
+@@ -42,6 +42,50 @@ body {
+   font-size: 16px;
+ }
+ 
++/* Landing page */
++.landing {
++  display: flex;
++  flex-direction: column;
++  align-items: center;
++  justify-content: center;
++  min-height: 80vh;
++  text-align: center;
++}
++
++.logo {
++  max-width: 180px;
++  height: auto;
++  margin-bottom: 24px;
++}
++
++.landing-title {
++  font-size: 40px;
++  margin: 0 0 8px;
++}
++
++.landing-sub {
++  font-size: 18px;
++  color: var(--muted);
++  margin: 0 0 36px;
++}
++
++.btn-ingresar {
++  background: var(--primary);
++  color: #fff;
++  border: none;
++  border-radius: 14px;
++  padding: 16px 48px;
++  font-size: 18px;
++  font-weight: bold;
++  cursor: pointer;
++  transition: 0.15s ease;
++}
++
++.btn-ingresar:hover {
++  background: #1d4ed8;
++  transform: scale(1.04);
++}
++
+ .panel {
+   background: var(--panel);
+   border: 1px solid var(--line);
+@@ -65,23 +109,10 @@ body {
+ 
+ .zone {
+   position: absolute;
+-  border: 2px solid rgba(37, 99, 235, 0.8);
+-  background: rgba(37, 99, 235, 0.10);
+-  color: #0f172a;
+-  font-weight: bold;
+-  font-size: 10px;
++  border: none;
++  background: transparent;
++  color: transparent;
+   cursor: pointer;
+-  border-radius: 5px;
+-  padding: 2px;
+-  transition: 0.15s ease;
+-  text-align: center;
+-  overflow: hidden;
+-}
+-
+-.zone:hover {
+-  background: rgba(37, 99, 235, 0.32);
+-  transform: scale(1.04);
+-  z-index: 20;
+ }
+ 
+ /* Zona exterior izquierda */
+@@ -251,34 +282,6 @@ body {
+   height: 4.8%;
+ }
+ 
+-.vacunatorio {
+-  left: 25%;
+-  top: 43%;
+-  width: 7%;
+-  height: 5%;
+-}
+-
+-.farmacia {
+-  left: 45%;
+-  top: 47%;
+-  width: 9%;
+-  height: 5%;
+-}
+-
+-.some {
+-  left: 57%;
+-  top: 47%;
+-  width: 7%;
+-  height: 5%;
+-}
+-
+-.oirs {
+-  left: 70%;
+-  top: 53%;
+-  width: 6%;
+-  height: 4%;
+-}
+-
+ .modal-backdrop {
+   position: fixed;
+   inset: 0;

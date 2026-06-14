@@ -1,9 +1,15 @@
 let inventario = {};
 
-document.addEventListener("DOMContentLoaded", async () => {
-  await cargarInventario();
-  crearZonasDesdeInventario();
+document.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("btnIngresar").addEventListener("click", ingresar);
 });
+
+async function ingresar() {
+  document.getElementById("landing").classList.add("hidden");
+  document.getElementById("app").classList.remove("hidden");
+  await cargarInventario();
+  conectarZonas();
+}
 
 async function cargarInventario() {
   try {
@@ -15,40 +21,13 @@ async function cargarInventario() {
   }
 }
 
-function crearZonasDesdeInventario() {
-  const mapWrapper = document.querySelector(".map-wrapper");
-
-  if (!mapWrapper) return;
-
-  // Elimina zonas antiguas creadas manualmente
-  document.querySelectorAll(".zone").forEach(zone => zone.remove());
-
-  Object.entries(inventario).forEach(([id, data]) => {
-    if (
-      data.x === undefined ||
-      data.y === undefined ||
-      data.w === undefined ||
-      data.h === undefined
-    ) {
-      return;
-    }
-
-    const button = document.createElement("button");
-
-    button.className = "zone";
-    button.dataset.id = id;
-    button.textContent = data.nombre || id;
-
-    button.style.left = data.x + "%";
-    button.style.top = data.y + "%";
-    button.style.width = data.w + "%";
-    button.style.height = data.h + "%";
-
-    button.addEventListener("click", () => {
-      mostrarInventario(id);
+// Conecta los botones de zona definidos en index.html (posicionados vía CSS .z-*)
+// con la lógica de inventario. Cada zona muestra su inventario según su data-id.
+function conectarZonas() {
+  document.querySelectorAll(".zone").forEach(zone => {
+    zone.addEventListener("click", () => {
+      mostrarInventario(zone.dataset.id);
     });
-
-    mapWrapper.appendChild(button);
   });
 }
 
